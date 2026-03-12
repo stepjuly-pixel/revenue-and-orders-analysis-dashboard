@@ -7,7 +7,7 @@ The dataset was extracted from BigQuery by joining order, product, session, and 
 
 The objective was to:
 
-- Track total revenue and order volume with week-over-week change indicators
+- Track total revenue and order volume with period-over-period change indicators
 
 - Visualize revenue and order dynamics over time (weekly granularity)
 
@@ -61,7 +61,7 @@ The reporting dataset was created using a SQL aggregation query that:
 
 The dashboard includes:
 
-- **KPI Cards** — Total Revenue and Total Orders with week-over-week change indicators (▲/▼)
+- **KPI Cards** — Total Revenue and Total Orders with period-over-period change indicators (▲/▼)
 
 - **Revenue Dynamics** — weekly revenue trend line with start/end point labels
 
